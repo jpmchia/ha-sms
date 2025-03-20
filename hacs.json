@@ -1,0 +1,11 @@
+{
+    "name": "SMS Cards for Home Assistant",
+    "render_readme": true,
+    "filename": "dist/sms-sender-card.js",
+    "content_in_root": false,
+    "domains": ["sensor"],
+    "country": ["US", "UK", "AU", "CA"],
+    "homeassistant": "2021.12.0",
+    "persistent_directory": "dist",
+    "zip_release": true
+  }
