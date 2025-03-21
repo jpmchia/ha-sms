@@ -30,7 +30,11 @@ Custom Lovelace cards to send and display SMS messages in Home Assistant, with b
     - Add the URL of this repository
     - Select "Lovelace" as the category
 3. Click Install
-4. Add the cards to your dashboard
+4. Add the following to your Lovelace resources:
+   ```yaml
+   resources:
+     - url: /hacsfiles/ha-sms/ha-sms.js
+       type: module
 
 ### Manual Installation
 
