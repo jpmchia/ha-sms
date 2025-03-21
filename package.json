@@ -1,7 +1,7 @@
 {
-    "name": "home-assistant-sms-cards",
+    "name": "ha-sms",
     "version": "1.0.0",
-    "description": "Custom Lovelace cards for SMS functionality in Home Assistant",
+    "description": "Custom dashboard cards for SMS functionality in Home Assistant",
     "main": "dist/sms-sender-card.js",
     "scripts": {
       "build": "webpack",
@@ -18,7 +18,7 @@
       "sms",
       "twilio"
     ],
-    "author": "Your Name",
+    "author": "Jean-Paul Chia",
     "license": "MIT",
     "devDependencies": {
       "webpack": "^5.72.0",
