@@ -25,6 +25,3 @@ jobs:
         uses: hacs/action@main
         with:
           category: plugin
-          name: sms
-          description: "A plugin for Home Assistant that allows you to send and display SMS messages"
-          url: https://github.com/jpmchia/ha-sms
